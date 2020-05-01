@@ -13,4 +13,4 @@ export const regexp = new RegExp(/\\\[([^\]]+?)(?:\\x2d([^\]]+))?\\\]/g);
 //              range ([a-z]), or the will be undefined for match ([abc])
 // )?         : open non capture group, this group is optional
 //              and will be present only for a range (for [a-z] will be 'z')
-// \\\]       : : matches \]
+// \\\]       : matches \]
